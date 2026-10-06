@@ -80,13 +80,22 @@ Start work, approve a plan, check progress, answer the AI's questions — all fr
 
 ### A project memory that never forgets
 
-<img src="docs/images/memory.png" alt="The Memory screen: short notes grouped into decisions, rules, things to watch out for and lessons" />
+<img src="docs/images/memory.png" alt="The memory map: each dot is a note — decisions, rules, things to watch out for, lessons — joined to the notes it relates to" />
 
 - **It writes things down.** Decisions, rules, pitfalls and lessons are saved as short notes inside your project. When a task is done, the AI records what it learned — and every save can be undone.
 - **It finds the right note by meaning.** Before each message, the notes that matter are picked out and handed to the AI. You stop repeating yourself, and the AI stops re-reading everything.
 - **It stays on your computer.** The search runs locally. Your notes are not sent anywhere to be searched.
 - **It knows when it might be wrong.** Notes about code that has since changed are marked, so the AI checks before trusting them.
 - **It tidies itself.** Old notes are put away automatically, so the working set stays small.
+- **You can see it.** Browse the notes as a list, or as a map of how they connect.
+
+### The right AI for each step
+
+Planning is short but decides everything. Writing the code is long but only follows the plan. So put your strongest AI on the thinking and a cheaper one on the typing — and a different one again to check the result.
+
+<img src="docs/images/ais.png" alt="Choosing an AI for each step: Claude Code for understanding and planning, Codex for breaking the plan into tasks and testing, OpenCode for writing the code" />
+
+You choose the AI for every step; the app never picks for you. Whichever ones you use, they follow the same rules and share the same memory, so a task planned by one can be built by another and checked by a third.
 
 ### Lower AI bills
 
@@ -110,7 +119,7 @@ Cortex Rail runs locally. There is no Cortex Rail account and no Cortex Rail ser
 
 ## Supported AIs
 
-Use one, or mix them — each can take the step it is best at, and they all follow the same rules and share the same memory. Cortex Rail finds the ones you have installed and lets you choose.
+Use one, or mix them. Cortex Rail finds the ones you have installed and can help you add the rest.
 
 | | | | |
 | :-- | :-- | :-- | :-- |
