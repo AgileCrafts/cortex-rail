@@ -4,14 +4,14 @@ Copyright © 2026 AgileCrafts. All rights reserved.
 
 This license covers two things:
 
-- **the App** — the Cortex Rail desktop application, its installers and its launcher, in the form AgileCrafts publishes them; and
-- **the Rules** — the text files, scripts and settings the App places inside a project you open with it (for example the `.agent-os` folder and the pointer files for AI tools).
+- **the App**: the Cortex Rail desktop application, its installers and its launcher, in the form AgileCrafts publishes them; and
+- **the Rules**: the text files, scripts and settings the App places inside a project you open with it (for example the `.agent-os` folder and the pointer files for AI tools).
 
 ## 1. What you may do
 
 **Use it for free.** You may install and use the App and the Rules at no cost, on any number of computers, for personal, educational and commercial work.
 
-**Change the Rules in your projects.** You may read, edit, add to and remove the Rules inside your own projects, and keep and share them as part of those projects — for example in the project's git repository, public or private.
+**Change the Rules in your projects.** You may read, edit, add to and remove the Rules inside your own projects, and keep and share them as part of those projects, for example in the project's git repository, public or private.
 
 **Tell people about it.** You may link to Cortex Rail and to its official download addresses.
 
@@ -37,7 +37,7 @@ The App and the Rules are provided "as is", without warranty of any kind, expres
 
 ## 6. Limit of liability
 
-To the fullest extent the law allows, AgileCrafts is not liable for any loss or damage arising from the use of, or the inability to use, the App or the Rules — including lost data, lost profits and interrupted business.
+To the fullest extent the law allows, AgileCrafts is not liable for any loss or damage arising from the use of, or the inability to use, the App or the Rules, including lost data, lost profits and interrupted business.
 
 ## 7. Ending
 

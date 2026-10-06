@@ -26,17 +26,17 @@ Your AI coding agents plan first, wait for your approval,<br />and share a proje
 
 AI coding agents are fast, and they drift fast. They skip the plan, forget what was decided last week, and change things nobody asked for. The usual fix is more documents and more prompts, which the agent then half-reads at your expense.
 
-Cortex Rail puts the agent on a rail instead. There is one path from idea to release. The agent cannot write code before you approve the plan, and everything it learns along the way is kept where the next session — or the next teammate, or a different AI — will find it.
+Cortex Rail puts the agent on a rail instead. There is one path from idea to release. The agent cannot write code before you approve the plan, and everything it learns along the way is kept where the next session, the next teammate or a different AI will find it.
 
 ## Install
 
-**Windows** — paste into PowerShell:
+**Windows.** Paste into PowerShell:
 
 ```powershell
 irm https://github.com/AgileCrafts/agent-os-dashboard-dist/releases/latest/download/install.ps1 | iex
 ```
 
-**Linux** — paste into a terminal:
+**Linux.** Paste into a terminal:
 
 ```sh
 curl -fsSL https://github.com/AgileCrafts/agent-os-dashboard-dist/releases/latest/download/install.sh | sh
@@ -64,7 +64,7 @@ flowchart LR
     M -. hands back what matters .-> D
 ```
 
-1. **Open a project.** Pick any folder. Cortex Rail adds a small set of rules to it — plain text files your AI tools read.
+1. **Open a project.** Pick any folder. Cortex Rail adds a small set of rules to it: plain text files your AI tools read.
 2. **Say what you want.** Describe the product in the chat. The AI asks its questions in plain words, then writes the plan and the task list.
 3. **Approve.** Until you say yes, the AI is blocked from writing code. This is a lock enforced by the tools themselves, not an instruction the AI can talk its way around.
 4. **Build.** The AI works through the tasks one at a time. You watch the board move and can stop, steer or take over at any point.
@@ -74,15 +74,15 @@ flowchart LR
 
 ### One chat that runs everything
 
-Start work, approve a plan, check progress, answer the AI's questions — all from one chat, in plain words. There are no commands to memorise and nothing to watch in a terminal unless you want to.
+Start work, approve a plan, check progress, answer the AI's questions, all from one chat, in plain words. There are no commands to memorise and nothing to watch in a terminal unless you want to.
 
 <img src="docs/images/chat.png" alt="The chat answering 'status' with a plain summary: what just finished, what is paused, what is next and what is waiting on you" />
 
 ### A project memory that never forgets
 
-<img src="docs/images/memory.png" alt="The memory map: each dot is a note — decisions, rules, things to watch out for, lessons — joined to the notes it relates to" />
+<img src="docs/images/memory.png" alt="The memory map: each dot is a note (a decision, a rule, something to watch out for or a lesson), joined to the notes it relates to" />
 
-- **It writes things down.** Decisions, rules, pitfalls and lessons are saved as short notes inside your project. When a task is done, the AI records what it learned — and every save can be undone.
+- **It writes things down.** Decisions, rules, pitfalls and lessons are saved as short notes inside your project. When a task is done, the AI records what it learned, and every save can be undone.
 - **It finds the right note by meaning.** Before each message, the notes that matter are picked out and handed to the AI. You stop repeating yourself, and the AI stops re-reading everything.
 - **It stays on your computer.** The search runs locally. Your notes are not sent anywhere to be searched.
 - **It knows when it might be wrong.** Notes about code that has since changed are marked, so the AI checks before trusting them.
@@ -91,7 +91,7 @@ Start work, approve a plan, check progress, answer the AI's questions — all fr
 
 ### The right AI for each step
 
-Planning is short but decides everything. Writing the code is long but only follows the plan. So put your strongest AI on the thinking and a cheaper one on the typing — and a different one again to check the result.
+Planning is short but decides everything. Writing the code is long but only follows the plan. So put your strongest AI on the thinking and a cheaper one on the typing, and a different one again to check the result.
 
 <img src="docs/images/ais.png" alt="Choosing an AI for each step: Claude Code for understanding and planning, Codex for breaking the plan into tasks and testing, OpenCode for writing the code" />
 
@@ -138,7 +138,7 @@ Read them, keep them in git with the rest of your project, and change the rules 
 
 ## Requirements
 
-- Windows 10 or 11 (64-bit), or 64-bit Linux — Ubuntu 20.04+, Debian 11+, Fedora 34+ and similar.
+- Windows 10 or 11 (64-bit), or 64-bit Linux: Ubuntu 20.04+, Debian 11+, Fedora 34+ and similar.
 - At least one supported AI coding tool. Cortex Rail can help you install and sign in to them.
 
 ## Removing it
