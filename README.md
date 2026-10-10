@@ -8,7 +8,7 @@
 
 Your AI coding agents plan first, wait for your approval,<br />and share a project memory that never forgets.
 
-[![Latest version](https://img.shields.io/github/v/release/AgileCrafts/agent-os-dashboard-dist?label=latest&color=8b5cf6)](https://github.com/AgileCrafts/agent-os-dashboard-dist/releases/latest)
+[![Latest version](https://img.shields.io/github/v/release/AgileCrafts/cortex-rail?label=latest&color=8b5cf6)](https://github.com/AgileCrafts/cortex-rail/releases/latest)
 ![Windows and Linux](https://img.shields.io/badge/runs%20on-Windows%20%C2%B7%20Linux-1f2937)
 ![Free to use](https://img.shields.io/badge/price-free-10b981)
 
@@ -33,13 +33,13 @@ Cortex Rail puts the agent on a rail instead. There is one path from idea to rel
 **Windows.** Paste into PowerShell:
 
 ```powershell
-irm https://github.com/AgileCrafts/agent-os-dashboard-dist/releases/latest/download/install.ps1 | iex
+irm https://github.com/AgileCrafts/cortex-rail/releases/latest/download/install.ps1 | iex
 ```
 
 **Linux.** Paste into a terminal:
 
 ```sh
-curl -fsSL https://github.com/AgileCrafts/agent-os-dashboard-dist/releases/latest/download/install.sh | sh
+curl -fsSL https://github.com/AgileCrafts/cortex-rail/releases/latest/download/install.sh | sh
 ```
 
 That is the whole setup. Both lines:
@@ -147,7 +147,7 @@ Read them, keep them in git with the rest of your project, and change the rules 
 <summary>Windows</summary>
 
 ```powershell
-& ([scriptblock]::Create((irm https://github.com/AgileCrafts/agent-os-dashboard-dist/releases/latest/download/install.ps1))) -Uninstall
+& ([scriptblock]::Create((irm https://github.com/AgileCrafts/cortex-rail/releases/latest/download/install.ps1))) -Uninstall
 ```
 
 </details>
@@ -156,7 +156,7 @@ Read them, keep them in git with the rest of your project, and change the rules 
 <summary>Linux</summary>
 
 ```sh
-curl -fsSL https://github.com/AgileCrafts/agent-os-dashboard-dist/releases/latest/download/install.sh | sh -s -- --uninstall
+curl -fsSL https://github.com/AgileCrafts/cortex-rail/releases/latest/download/install.sh | sh -s -- --uninstall
 ```
 
 </details>
