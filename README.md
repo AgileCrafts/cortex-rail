@@ -8,9 +8,27 @@
 
 Your AI coding agents plan first, wait for your approval, test what they build,<br />and share a project memory that never forgets. You run it all from one chat.
 
-[![Latest version](https://img.shields.io/github/v/release/AgileCrafts/cortex-rail?label=latest&color=8b5cf6)](https://github.com/AgileCrafts/cortex-rail/releases/latest)
-![Windows and Linux](https://img.shields.io/badge/runs%20on-Windows%20%C2%B7%20Linux-1f2937)
+[![Latest version](https://img.shields.io/github/v/release/AgileCrafts/cortex-rail?label=latest&display_name=release&color=8b5cf6)](https://github.com/AgileCrafts/cortex-rail/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/AgileCrafts/cortex-rail/total?label=downloads&color=6d28d9)](https://github.com/AgileCrafts/cortex-rail/releases)
+![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%C2%B7%2011-0078D4)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu%20%C2%B7%20Debian%20%C2%B7%20Fedora-FCC624?logo=linux&logoColor=black)
 ![Free to use](https://img.shields.io/badge/price-free-10b981)
+<br />
+![Code locked until you approve](https://img.shields.io/badge/code-locked%20until%20you%20approve-5ff3d0?labelColor=1f2937)
+![Security checked](https://img.shields.io/badge/every%20change-tested%20%C2%B7%20security%20checked-5ff3d0?labelColor=1f2937)
+![Memory on your computer](https://img.shields.io/badge/memory-on%20your%20computer-a78bfa?labelColor=1f2937)
+![Fewer tokens](https://img.shields.io/badge/context-only%20what%20the%20task%20needs-a78bfa?labelColor=1f2937)
+![Plain text rules](https://img.shields.io/badge/rules-plain%20text-a78bfa?labelColor=1f2937)
+
+<sub><b>WORKS WITH</b></sub><br />
+<a href="https://www.anthropic.com/claude-code" title="Claude Code"><img src="docs/images/ai/claude-code.svg" width="88" alt="Claude Code" /></a>
+<a href="https://github.com/openai/codex" title="Codex"><img src="docs/images/ai/codex.svg" width="88" alt="Codex" /></a>
+<a href="https://opencode.ai" title="OpenCode"><img src="docs/images/ai/opencode.svg" width="88" alt="OpenCode" /></a>
+<a href="https://github.com/google-gemini/gemini-cli" title="Gemini CLI"><img src="docs/images/ai/gemini-cli.svg" width="88" alt="Gemini CLI" /></a>
+<a href="https://github.com/QwenLM/qwen-code" title="Qwen Code"><img src="docs/images/ai/qwen-code.svg" width="88" alt="Qwen Code" /></a>
+<a href="https://cursor.com/cli" title="Cursor CLI"><img src="docs/images/ai/cursor-cli.svg" width="88" alt="Cursor CLI" /></a>
+<a href="https://github.com/github/copilot-cli" title="GitHub Copilot CLI"><img src="docs/images/ai/copilot-cli.svg" width="88" alt="GitHub Copilot CLI" /></a>
+<a href="https://aider.chat" title="Aider"><img src="docs/images/ai/aider.svg" width="88" alt="Aider" /></a>
 
 [Website](https://cortexrail.com) · [Install](#install) · [How it works](#how-it-works) · [What you get](#what-you-get) · [Supported AIs](#supported-ais) · [Questions](https://cortexrail.com/faq/) · [What's new](https://cortexrail.com/whats-new/)
 
@@ -130,6 +148,8 @@ Cortex Rail runs locally. There is no Cortex Rail account and no Cortex Rail ser
 ## Supported AIs
 
 Use one, or mix them. Cortex Rail finds the ones you have installed and can help you add the rest.
+
+<sub>Logos from <a href="https://github.com/lobehub/lobe-icons">LobeHub Icons</a> (MIT licence). Each logo belongs to its owner.</sub>
 
 | | | | |
 | :-- | :-- | :-- | :-- |
